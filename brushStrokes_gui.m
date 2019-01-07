@@ -2,7 +2,7 @@
 
 function varargout = brushStrokes_gui(varargin)
 % brushStrokes_gui MATLAB code for brushStrokes_gui.fig
-%      CODE BY DR. VEKSLER
+%     Based on the GUI of DR. VEKSLER
 %      brushStrokes_gui, by itself, creates a new brushStrokes_gui or raises the existing
 %      singleton*.
 %
@@ -72,7 +72,7 @@ set(handles.pushbuttonSaveData,'enable','on');
 %trains neuralnet on dataset
 load A1_full;
 regularizerWeight = 0.9;
-H = [140, 70];
+H = [100];
 [net, valErr] = buildNeuralNet(X_train_full, Y_train_full, H, regularizerWeight);
 handles.net = net;
 
