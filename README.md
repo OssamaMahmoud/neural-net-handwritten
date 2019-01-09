@@ -16,3 +16,5 @@ Validated Neural Net: 0.0795
 
 Note training at initial start of program does take some time. 
 GUI is based on the GUI made by Dr. Olga Veksler
+
+To run GUI and sample code, run brushstrokes_GUI.m 
