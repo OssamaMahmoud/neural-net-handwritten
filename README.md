@@ -1,3 +1,4 @@
+# OCR Using Neural Net #
 Application to recognize handwritten digits with a neural net based on the MNIST handwritten digit data set. 
 Various machine learning algorithms applied to create a Matlab application to label handwritten digits  
 
